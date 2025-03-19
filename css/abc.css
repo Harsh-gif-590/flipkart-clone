@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(91, 188, 230);
+    /* border: 2px solid red; */
+    height: 10vh;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 13vw;
+}
+
+header .logo {
+    margin: 0vw 0vw 0vw 1vw;
+}
+
+header .logo img {
+    height: 8vh;
+}
+
+header .nav-items {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+
+.search {
+    width: 50vw;
+
+}
+
+.search button{
+
+    background-color: rgb(91, 188, 230);
+}
+
+.search input {
+    width: 37vw;
+    height: 4vh;
+}
+
+.signin {
+    position: relative;
+    right: 248px;
+    background-color: rgb(91, 188, 230);
+}
+
+.login {
+    position: relative;
+    right: 366px;
+    background-color: rgb(91, 188, 230);
+}
+
+body{
+    background-color: rgb(231, 236, 238);
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.category{
+    /* border: 2px solid yellow; */
+    margin: auto;
+    width: 88vw;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.container .slider {
+    /* border: 2px solid green; */
+    width: 80vw;
+    height: 60vh;
+    margin: 5vh auto 5vh;
+    overflow: hidden;
+}
+
+.container .slider img {
+    width: 100%;
+}
+
+.container.category.clothes.p{
+    text-decoration: none;
+}
+.container h2 {
+    margin: 0 0 3vh 3vw;
+}
+
+.container .cards {
+    margin: 0 3vw 9vh 3vw;
+    padding: 10px 10px 0 10px;
+    /* border: 2px solid brown; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.lines{
+    text-align: center;
+}
+
+/* .container .cards .card-item {
+    border: 2px solid blue;
+} */
+
+/* .container .cards .card-item img{
+    height: 45px;
+} */
