@@ -182,3 +182,16 @@ header {
 .lines{
     text-align: center;
 }
+
+footer{
+    background-color: #212121;
+    padding: 50px;
+    gap: 10px;
+}
+
+.top-footer
+{
+    display: fles;
+    flex-wrap: wrap;
+    flex-basis: 15%;
+}
