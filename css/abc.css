@@ -142,10 +142,10 @@ header {
     flex-flow: column nowrap;
 }
 .category{
-    /* border: 2px solid yellow; */
+    /* border: 2px solid rgb(200, 25, 25); */
     margin: auto;
-    width: 88vw;
-    padding: 10px;
+    width: 98vw;
+    padding: 15px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
